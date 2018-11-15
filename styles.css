@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+.logo img {
+  display: flex;
+	width: 20%;
+	max-width: 700px;
+  margin-left: -6.5%;
+}
+
+body {
+  font-family: 'Chelsea Market', cursive;
+}
+
+header {
+	background: #FFFFFF;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-attachment: fixed;
+	margin-bottom: .2%;
+
+}
+
+
+header nav ul li {
+	display: inline;
+	font-size: 1.75em;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+header nav a {
+	color: #27AE60;
+}
+
+
+header nav a:hover {
+  color: #2980dd;
+}
+
+header nav a:active {
+  color: #ed9121
+}
+
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul {
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	padding-top: 250px;
+}
+
+.horse8 img {
+  display: flex;
+  width: 75%;
+  padding-top: 50px;
+  justify-content: center;
+  margin-left: 13%;
+  padding-bottom: 25px;
+}
+
+p {
+  font-size: 1em;
+  padding-bottom: 25px;
+}
+
+
+.horses img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 25%;
+  align-content: space-around;
+  width: 25%;
+  padding: 5%;
+
+}
