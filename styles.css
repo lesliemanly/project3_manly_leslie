@@ -43,6 +43,8 @@ header nav a {
 
 li a:hover {
   color: #2980dd;
+  -webkit-filter: blur(5px);
+    filter: blur(5px);
 }
 
 
