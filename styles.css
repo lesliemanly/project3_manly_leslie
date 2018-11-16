@@ -35,13 +35,42 @@ header nav ul li {
 	padding-right: 25px;
 }
 
+nav.borderXwid a:before, nav.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+nav.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+nav.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+nav.borderXwidth a:hover:before, nav.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
 
 header nav a {
 	color: #27AE60;
 }
 
 
-header nav a:hover {
+ul a:hover {
   color: #2980dd;
 }
 
@@ -59,6 +88,7 @@ nav {
 nav ul {
 	padding-bottom: 20px;
 }
+
 
 h1 {
 	font-size: 3em;
@@ -91,5 +121,36 @@ p {
   align-content: space-around;
   width: 25%;
   padding: 5%;
+}
 
+h2 {
+  font-size: 2em;
+  padding-bottom: 25px;
+}
+
+.aqh img {
+  display: flex;
+  width: 75%;
+  padding-top: 50px;
+  justify-content: center;
+  margin-left: 13%;
+  padding-bottom: 25px;
+}
+
+.draft img {
+  display: flex;
+  width: 75%;
+  padding-top: 50px;
+  justify-content: center;
+  margin-left: 13%;
+  padding-bottom: 25px;
+}
+
+.mini img {
+  display: flex;
+  width: 75%;
+  padding-top: 50px;
+  justify-content: center;
+  margin-left: 13%;
+  padding-bottom: 25px;
 }
